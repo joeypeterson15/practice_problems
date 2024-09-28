@@ -9,5 +9,3 @@ class Solution:
             return dfs(node.left, currSum) or dfs(node.right, currSum)
 
         return dfs(root, 0)
-    
-    
